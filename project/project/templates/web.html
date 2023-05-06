@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Welcome to The Project</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+<style>
+table ,td, tr {
+		width: 10%;
+}
+
+</style>
+
+	<body>
+	
+	    <h2> Spy Robot</h2>
+		<img src="http://{{ ip }}" style="width:100%; max-width: 600px; max-height:600px; border-radius:10px"></img>
+		
+		<table style="width:100%">
+			<tr>
+				<td>
+					<form action="/1" method="POST">
+						<input type="image" name="direction" src="/static/img/left.svg" value="left" style="float:left; width:60% ;">
+						</br>
+					</form>
+				</td>
+				<td>
+					<form action="/2" method="POST">
+						<input type="image" name="direction" src="/static/img/forward.svg" value="forward" style="float:left; width:60%;">
+						</br>
+					</form>
+				</td>
+				<td>
+
+					<form action="/3" method="POST">
+						<input type="image" name="direction" src="/static/img/right.svg" value="right" style="float:left; width:60%;">
+						</br>
+					</form>
+
+				</td>
+
+				<td>
+					
+				</td>
+			</tr>
+			<tr>
+				<td>
+					
+				</td>
+
+				<td>
+					<form action="/4" method="POST">
+						<input type="image" name="direction" src="/static/img/reverse.svg" value="reverse" style="float:left; width:60%;">
+						</br>
+					</form>
+				</td>
+
+				<td>
+					<form action="/5" method="POST">
+						<input type="image" name="direction" src="/static/img/stop.svg" value="stop" style="float:left; width:60%;">
+						</br>
+					</form>
+				</td>
+				<td>
+					
+				</td>
+				
+				
+			</tr>
+			<tr>
+
+								
+			</tr>
+		</table>
+		
+	</body>
+</html>
